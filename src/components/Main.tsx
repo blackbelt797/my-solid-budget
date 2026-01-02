@@ -1,4 +1,5 @@
 import { createSignal } from 'solid-js';
+import Bills from '~/components/Bills';
 import Transactions from '~/components/Transactions';
 
 export default function Main() {
@@ -25,6 +26,7 @@ export default function Main() {
      <h2 class="w-64 bg-blue-600 rounded-md px-3 py-2">Total Bills</h2>
     </div>
    </div>
+   <Bills />
    <Transactions />
   </main>
  );
