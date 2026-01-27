@@ -58,7 +58,7 @@ const mockTransactions: Transaction[] = [
   status: 'failed',
  },
 ];
-
+// This is a function to sort the transactions.
 export default function TransactionsList() {
  const [sortOrder, setSortOrder] = createSignal<'asc' | 'desc'>('desc');
 
